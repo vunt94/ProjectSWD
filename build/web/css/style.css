@@ -1,0 +1,243 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bg-primary {
+    background-color: #28a745!important;
+}
+a{
+    color: white;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    font-family: sans-serif;
+    text-decoration: blink;
+}   
+
+.h4, h4{
+    font-size: 1rem;
+    color: green;
+}
+.bg-dark{
+    background-color: #ffffff!important;
+}
+
+.navbar-dark .navbar-brand {
+    color: green;
+    font-size: 3rem;
+    border-radius: 50px;
+}
+
+
+.text-muted {
+    color: aliceblue!important;
+}
+
+.h1, h1{
+    color: aliceblue!important;
+}
+
+.jumbotron {
+    padding: 2rem 0.5rem;
+    margin-bottom: 5rem;
+    background-color: darkseagreen;
+    border-radius: 2.3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: green;
+    font-size: 1.25rem;
+    border-radius: 50px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.bloc_left_price {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+}
+.category_block li:hover {
+    background-color :#28a745;
+}
+.category_block li a {
+    color: #343a40;
+}
+/*.add_to_cart_block .price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}*/
+/*.add_to_cart_block .price_discounted {
+    color: darkseagreen;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}*/
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: darkseagreen;
+    border: 1px solid darkseagreen;
+    color: #03A9F4;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: darkseagreen;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: darkseagreen;
+    padding: 40px;
+    margin-top: 20px;
+}
+footer a {
+    color: white;
+}
+.bgc{
+    background-image: url(images/slider1.jpg);
+}
+.show_txt{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.col{
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    background-color: green;
+}
+.nav-link:hover{
+    background-color: green;
+}
+
+.manager:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.manager {
+    color: white;
+}
+/*left bar*/
+ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+ .accordion {     
+ 	width: 100%;
+ 	max-width: 360px;
+/*  	margin: 30px auto 20px; */
+ 	background: #FFF;
+ 	border-radius: 4px;
+ }
+
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: .75rem 1.25rem;       
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+	border-bottom: 0;
+}
+
+.accordion li i {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	font-size: 18px;
+	color: #595959;
+	transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
+}
+
+.accordion li.open .link {
+	color: #3E7C17;
+}
+
+.accordion li.open i {
+	color: #3E7C17;
+}
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.accordion li.default .submenu {display: block;}
+/**
+ * Submenu
+ -----------------------------*/
+.submenu {
+ 	display: none;
+ 	background: #A6CF98;
+ 	font-size: 14px;
+}
+
+.submenu li {
+ 	border-bottom: 1px solid #557C55;
+}
+
+.submenu a {
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #FFF;
+ 	padding: 12px;
+ 	padding-left: 42px;
+ 	-webkit-transition: all 0.25s ease;
+ 	-o-transition: all 0.25s ease;
+ 	transition: all 0.25s ease;
+}
+
+ .submenu a:hover {
+ 	background: #F2FFE9;
+ 	color: #000;
+  transition: 0.3s ease;
+ }
